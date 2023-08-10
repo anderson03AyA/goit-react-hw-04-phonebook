@@ -1,0 +1,48 @@
+body{
+   padding: 10px; 
+}
+h3 {
+    font-size: xx-large;
+}
+.form {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 50vw;
+}
+label {
+    margin-top: 15px;
+}
+input {
+    width: 40%;
+}
+.button {
+    width: 30%;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d8d8ea;
+    box-shadow: 2px 2px 2px #bebebe;
+}
+.button:hover {
+    background-color: rgb(79, 102, 221);
+}
+.li__button {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d8d8ea;
+    box-shadow: 1px 1px 1px #bebebe;
+}
+.li__button:hover{
+    cursor: pointer;
+    background-color: rgb(79, 102, 221);
+}
+
+
+.li__number {
+    padding-right: 25px;
+}
