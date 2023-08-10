@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Phonebook from "./components/Phonebook/Phonebook";
-import { useLocalStorage } from "./useLocalStorage";
+import { useLocalStorage } from "../src/hooks/useLocalStorage";
 
 function App() {
   const [contacts, setContacts] = useLocalStorage("contact", []);
